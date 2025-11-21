@@ -1,0 +1,38 @@
+{
+  "skills": [
+    {
+      "group": "Code",
+      "items": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "JSON"
+      ]
+    }, {
+      "group": "Toolbox",
+      "items": [
+        "VS Code",
+        "Figma",
+        "Netlify",
+        "Github",
+        "Slack",
+        "Mattermost"
+      ]
+    }, {
+      "group": "Upcoming",
+      "items": [
+        "Node.js",
+        "MongoDB"
+      ]
+    }, {
+      "group": "More",
+      "items": [
+        "Agile methodology",
+        "Web accessibility",
+        "Wordpress"
+      ]
+    }
+  ]
+}

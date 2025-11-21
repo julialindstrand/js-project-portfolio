@@ -1,5 +1,5 @@
 import projects from "../data/projects.json"
-import { ProjectCard } from "./card"
+import { ProjectCard } from "./Reusables/card"
 
 export const Project = () => {
   return (
