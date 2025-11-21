@@ -2,18 +2,20 @@
   "projects": [
     {
       "name": "Business site",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "image": "./src/images/Tailtales.png",
+      "description": "This is a website for adopting cats and seeing how the adoption process works. Every cat has their own card with information and picture. Then there’s a form to fill out if you want to adopt",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://technigo-tailtales.app/",
+      "github": "https://github.com/julialindstrand/js-project-business-site"
     },
     {
       "name": "Weather app",
-      "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
+      "image": "./src/images/weatherapp.png",
+      "description": "A weather application with the ability to toggle between four different cities. It shows a picture of the cities in the background. You can also see the next 5 days forecast.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -21,8 +23,33 @@
         "TypeScript",
         "APIs"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://poodles3-weather-app.netlify.app",
+      "github": "https://github.com/julialindstrand/js-project-weather-app"
+    },
+    {
+      "name": "Quiz",
+      "image": "./src/images/quiz.png",
+      "description": "A groupproject where we chose to make a little quiz about ourselfs. First you have to enter your information to get to the quiz and you get all the answers in the about page.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ],
+      "netlify": "https://github.com/julialindstrand/js-project-accessibility",
+      "github": "https://github.com/julialindstrand/js-project-accessibility"
+    },
+    {
+      "name": "Recipe Library",
+      "image": "./src/images/recipelibrary.png",
+      "description": "A simple site with recipes fetched by an API. I followed a design as closely as possible and just integrated the API. It was focus on beeing able to sort and filter the different recipes.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "APIs"
+      ],
+      "netlify": "https://recipeslibrary.netlify.app/",
+      "github": "https://github.com/julialindstrand/js-project-recipe-library"
     }
   ]
 }

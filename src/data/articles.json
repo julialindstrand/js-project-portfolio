@@ -1,0 +1,27 @@
+{
+  "articles": [
+    {
+      "name": "How to stop being scared: Learning to love code",
+      "image": "https://plus.unsplash.com/premium_photo-1670333351937-68cb2735a0fd?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Writing code is less about “just working”. Instead, it’s much more about creativity. It’s similar to creative writing in that the author architecting a story must use an assortment of tools and components (i.e., content) in a way to satisfy a particular objective.",
+      "readmore": "link"
+    },
+    {
+      "name": "My First Codereview",
+      "image": "https://images.unsplash.com/photo-1516463859456-ce782449bfe0?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "testtest",
+      "readmore": "link"
+    },
+    {
+      "name": "My First Codereview",
+      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "description": "testtest",
+      "readmore": "link"
+    },
+    {
+      "name": "My First Codereview",
+      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "description": "testtest",
+      "readmore": "link"
+    }
+  ] }
