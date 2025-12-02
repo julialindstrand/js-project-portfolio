@@ -1,11 +1,12 @@
 import projects from "../data/projects.json"
 import { ProjectCard } from "./Reusables/card"
 import styled from "styled-components"
+import { H2 } from "./Styling/Typography"
 
 export const Project = () => {
   return (
     <>
-      <h2>Featured Projects</h2>
+      <H2>Featured Projects</H2>
       <Projects className="projectcards">
         {projects.projects.map((project) => (
           <ProjectCard

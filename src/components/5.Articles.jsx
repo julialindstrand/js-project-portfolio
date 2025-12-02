@@ -1,11 +1,13 @@
 import articles from "../data/articles.json"
 import { ArticleCard } from "./Reusables/card"
+import styled from "styled-components"
+import { H2 } from "./Styling/Typography"
 
 export const Articles = () => {
   return (
     <>
-      <h2>My Journey</h2>
-      <div className="articlescards">
+      <H2>My Journey</H2>
+      <ArticlesSection className="articlescards">
         {articles.articles.map((article) => (
           <ArticleCard
             key={article.title}
@@ -13,7 +15,17 @@ export const Articles = () => {
             title={article.title}
             description={article.description}
           />))}
-      </div>
+      </ArticlesSection>
     </>
   )
 }
+
+const ArticlesSection = styled.div`
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex - start;
+padding: 0px;
+gap: 64px;
+width: 1440px;
+height: 625px;`
