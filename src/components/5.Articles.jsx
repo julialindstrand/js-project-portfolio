@@ -1,21 +1,24 @@
-import articles from "../data/articles.json"
+import articlesData from "../data/articles.json"
 import { ArticleCard } from "./Reusables/card"
 import styled from "styled-components"
 import { H2 } from "./Styling/Typography"
+import { Carousel } from "./Styling/Carousel"
 
 export const Articles = () => {
   return (
     <ArticlesSection>
       <H2>My Journey</H2>
-      <ArticlesContainer className="articlescards">
-        {/* {articles.articles.map((article) => (
+      <Carousel
+        data={articlesData.articles}
+        renderItem={(article) => (
           <ArticleCard
             key={article.title}
             image={article.image}
             title={article.title}
             description={article.description}
-          />))} */}
-      </ArticlesContainer>
+          />
+        )}
+      />
     </ArticlesSection>
   )
 }

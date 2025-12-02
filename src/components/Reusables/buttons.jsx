@@ -20,6 +20,7 @@ const StyledButton = styled.button`
   background: ${(props) => theme.variant[props.$className]?.background};
   border-radius: 12px;
   border: 2px solid ${(props) => props.$color};
+  gap: 5xp;
   `
 
 const StyledLink = styled.a`

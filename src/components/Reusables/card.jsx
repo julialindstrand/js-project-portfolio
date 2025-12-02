@@ -6,7 +6,7 @@ export const ArticleCard = ({ title, image, description, readmore }) => {
   return (
     <>
       <Card className="card">
-        <img src={image} alt="" className="card-img" />
+        <Picture src={image} alt="" className="card-img" />
         <H3>{title}</H3>
         <P>{description}</P>
         <Button href={readmore} title="Read Article" className="read-article">
@@ -19,7 +19,7 @@ export const ProjectCard = ({ name, image, description, netlify, github }) => {
   return (
     <>
       <Card className="card">
-        <img src={image} alt="" className="card-img" />
+        <Picture src={image} alt="" className="card-img" />
         <H3>{name}</H3>
         <P>{description}</P>
         <Buttons>
@@ -38,8 +38,8 @@ export const ProjectCard = ({ name, image, description, netlify, github }) => {
 const Card = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex - start;
+  justify-content: space-between;
+  align-items: center;
   padding: 0px;
   gap: 24px;
   width: 400px;
@@ -48,5 +48,9 @@ const Card = styled.div`
 
 const Buttons = styled.div`
   display: flex;
-  justify-content: space-between;
+  gap: 15px;
+`
+const Picture = styled.img`
+  width: 400px;
+  height: 300px;
 `

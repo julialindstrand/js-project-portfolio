@@ -20,8 +20,14 @@ export const Header = () => {
 const HeaderSection = styled.div`
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  flex-wrap: wrap;`
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  @media(max-width: 1440px) {
+  flex-direction: column;
+  align-items: center;
+}`
 
 const TextSection = styled.div`
   display: flex;

@@ -22,6 +22,10 @@ const ContactSection = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 667px) {
+    flex-direction: column;
+  }
 `
 const Picture = styled.img`
   width: 476px;

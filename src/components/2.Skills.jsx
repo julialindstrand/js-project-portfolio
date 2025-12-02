@@ -39,7 +39,7 @@ const SkillSectionSkills = styled.div`
 
 @media(max-width: 1440px) {
   flex-direction: column;
-  margin-top: 15px;
+  align-items: center;
 }`
 
 const SkillColumn = styled.div`
