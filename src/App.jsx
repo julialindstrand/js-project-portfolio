@@ -1,3 +1,4 @@
+import { GlobalStyle } from "./components/Styling/GlobalStyle"
 import { Header } from "./components/1.Header"
 import { Skills } from "./components/2.Skills"
 import { Project } from "./components/3.Projects"
@@ -10,6 +11,8 @@ import { Contact } from "./components/6.Contact"
 export const App = () => {
   return (
     <>
+
+      <GlobalStyle />
 
       <Header />
 

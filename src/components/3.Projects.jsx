@@ -1,11 +1,12 @@
 import projects from "../data/projects.json"
 import { ProjectCard } from "./Reusables/card"
+import styled from "styled-components"
 
 export const Project = () => {
   return (
     <>
       <h2>Featured Projects</h2>
-      <div className="projectcards">
+      <Projects className="projectcards">
         {projects.projects.map((project) => (
           <ProjectCard
             key={project.name}
@@ -15,7 +16,17 @@ export const Project = () => {
             netlify={project.netlify}
             github={project.github}
           />))}
-      </div>
+      </Projects>
     </>
   )
 }
+
+const Projects = styled.div`
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex - start;
+padding: 0px;
+gap: 64px;
+width: 1440px;
+height: 625px;`
