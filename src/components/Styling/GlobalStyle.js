@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
   padding: 0;
   color: #202020;
   font-style: normal;
-}
+  }
 
 body {
   display: flex;

@@ -1,3 +1,4 @@
+import { H3, P } from "../Styling/Typography"
 import { Button } from "./buttons"
 import styled from "styled-components"
 
@@ -6,8 +7,8 @@ export const ArticleCard = ({ title, image, description, readmore }) => {
     <>
       <Card className="card">
         <img src={image} alt="" className="card-img" />
-        <h3>{title}</h3>
-        <p>{description}</p>
+        <H3>{title}</H3>
+        <P>{description}</P>
         <Button href={readmore} title="Read Article" className="read-article">
         </Button>
       </Card></>
@@ -19,8 +20,8 @@ export const ProjectCard = ({ name, image, description, netlify, github }) => {
     <>
       <Card className="card">
         <img src={image} alt="" className="card-img" />
-        <h3>{name}</h3>
-        <p>{description}</p>
+        <H3>{name}</H3>
+        <P>{description}</P>
         <Buttons>
           <Button href={netlify} title="Live Demo"
             className="live-demo">

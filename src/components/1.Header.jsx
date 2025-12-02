@@ -17,17 +17,21 @@ export const Header = () => {
 
 
 // Styling
-
 const HeaderSection = styled.div`
   display: flex;
-  flex-direction: row;`
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;`
 
 const TextSection = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 128px 128px 0 128px;
-  max-width: 580px;`
+  margin: 128px 128px 0 128px;
+  max-width: 580px;
+`
 
 const Picture = styled.img`
   width: 526px;
+  height: auto;
+  object-fit: contain;
 `

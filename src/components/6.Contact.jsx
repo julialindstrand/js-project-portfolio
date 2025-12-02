@@ -16,6 +16,7 @@ export const Contact = () => {
   )
 }
 
+// Styling
 const ContactSection = styled.div`
   display: flex;
   flex-direction: row;
