@@ -20,6 +20,28 @@ export const Carousel = ({ data, renderItem }) => {
         speed={700}
         freeMode={true}
         watchOverflow={false}
+        breakpoints={{
+          // when window width is >= 1200px
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 150,
+          },
+          // when window width is >= 992px
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 150,
+          },
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 150,
+          },
+          // when window width is < 768px
+          0: {
+            slidesPerView: 1,
+            spaceBetween: 150,
+          },
+        }}
       >
         {data.map((item, index) => (
           <SwiperSlide key={index} className="slide" tabIndex={0}>
@@ -33,8 +55,9 @@ export const Carousel = ({ data, renderItem }) => {
 
 const CarouselWrapper = styled.div`
   margin-top: 62px;
-  padding: 0 50px;
-  width: 1400px;
+  padding: 0 20px;
+  max-width: 1400px;
+  width: 100%;
   overflow: visible;
 
   .swiper {
@@ -46,18 +69,19 @@ const CarouselWrapper = styled.div`
   }
 
   .swiper-slide {
-    width: 400px !important;
+    width: 100% !important;
     height: auto;
     display: flex;
   }
-
-   .swiper-scrollbar {
+  
+  .swiper-scrollbar {
     height: 20px;
     background: #d8d8d8;
     border-radius: 20px;
     margin: 32px auto 0;
     width: 80%;
     cursor: pointer;
+    position: relative;
   }
 
   .swiper-scrollbar-drag {
@@ -71,11 +95,10 @@ const CarouselWrapper = styled.div`
     cursor: grabbing;
   }
 
-  .swiper-slide {
-    width: 300px !important;
-  }
-
   @media (max-width: 768px) {
     padding: 0 20px;
-  }
+    }
+
+    .swiper-slide {
+    width: 300px !important;}
 `;

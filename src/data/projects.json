@@ -27,18 +27,6 @@
       "github": "https://github.com/julialindstrand/js-project-weather-app"
     },
     {
-      "name": "Quiz",
-      "image": "./src/images/quiz.png",
-      "description": "A groupproject where we chose to make a little quiz about ourselfs. First you have to enter your information to get to the quiz and you get all the answers in the about page.",
-      "tags": [
-        "HTML5",
-        "CSS3",
-        "JavaScript"
-      ],
-      "netlify": "https://github.com/julialindstrand/js-project-accessibility",
-      "github": "https://github.com/julialindstrand/js-project-accessibility"
-    },
-    {
       "name": "Recipe Library",
       "image": "./src/images/recipelibrary.png",
       "description": "A simple site with recipes fetched by an API. I followed a design as closely as possible and just integrated the API. It was focus on beeing able to sort and filter the different recipes.",
@@ -50,6 +38,18 @@
       ],
       "netlify": "https://recipeslibrary.netlify.app/",
       "github": "https://github.com/julialindstrand/js-project-recipe-library"
+    },
+    {
+      "name": "Quiz",
+      "image": "./src/images/quiz.png",
+      "description": "A groupproject where we chose to make a little quiz about ourselfs. First you have to enter your information to get to the quiz and you get all the answers in the about page.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ],
+      "netlify": "https://github.com/julialindstrand/js-project-accessibility",
+      "github": "https://github.com/julialindstrand/js-project-accessibility"
     }
   ]
 }
