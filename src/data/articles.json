@@ -2,25 +2,25 @@
   "articles": [
     {
       "title": "Learning to love code",
-      "image": "./src/images/discoball.png",
+      "image": "/images/discoball.png",
       "description": "Writing code is less about “just working”. Instead, it’s much more about creativity. It’s similar to creative writing in that the author architecting a story must use an assortment of tools and components (i.e., content) in a way to satisfy a particular objective.",
       "readmore": "link"
     },
     {
       "title": "My First Codereview",
-      "image": "./src/images/gold.png",
+      "image": "/images/gold.png",
       "description": "Writing code is less about “just working”. Instead, it’s much more about creativity. It’s similar to creative writing in that the author architecting a story must use an assortment of tools and components (i.e., content) in a way to satisfy a particular objective.",
       "readmore": "link"
     },
     {
       "title": "Javascript 101",
-      "image": "./src/images/cupcakes.png",
+      "image": "/images/cupcakes.png",
       "description": "Writing code is less about “just working”. Instead, it’s much more about creativity. It’s similar to creative writing in that the author architecting a story must use an assortment of tools and components (i.e., content) in a way to satisfy a particular objective.",
       "readmore": "link"
     },
     {
       "title": "Javascript 102",
-      "image": "./src/images/cake.png",
+      "image": "/images/cake.png",
       "description": "Writing code is less about “just working”. Instead, it’s much more about creativity. It’s similar to creative writing in that the author architecting a story must use an assortment of tools and components (i.e., content) in a way to satisfy a particular objective.",
       "readmore": "link"
     }

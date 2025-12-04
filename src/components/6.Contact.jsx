@@ -5,7 +5,7 @@ import { H2, H3 } from "./Styling/Typography"
 export const Contact = () => {
   return (
     <ContactSection>
-      <Picture src="../src/images/profilepicture.png" alt="Picture of Julia" />
+      <Picture src="/images/profilepicture.png" alt="Picture of Julia" />
       <ContactInfo>
         <H2>Let's talk</H2>
         <H3>Julia Lindstrand</H3>
