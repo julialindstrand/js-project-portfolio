@@ -3,7 +3,7 @@
     {
       "name": "Business site",
       "image": "/images/tailtales.png",
-      "description": "This is a website for adopting cats and seeing how the adoption process works. Every cat has their own card with information and picture. Then there’s a form to fill out if you want to adopt",
+      "description": "This is a website for adopting cats and seeing how the adoption process works. Every cat has their own card with information and picture. Then there’s a form to fill out if you want to adopt.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -25,6 +25,45 @@
       ],
       "netlify": "https://poodles3-weather-app.netlify.app",
       "github": "https://github.com/julialindstrand/js-project-weather-app"
+    },
+    {
+      "name": "Movies Project",
+      "image": "/images/movies.png",
+      "description": "A groupproject where we worked with a API that generates the latest movies and we needed to sort and filter them. It was important that it was responsive and have accessibility in mind.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "API"
+      ],
+      "netlify": "https://project-movies-nj.netlify.app/",
+      "github": "https://github.com/julialindstrand/js-project-movies"
+    },
+    {
+      "name": "Todo",
+      "image": "/images/todo.png",
+      "description": "A groupproject where we made a Todo-list that can add and remove tasks. It was focused on cooperating with an API and beeing userfriendly. We chose a simple and straight-forward design",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "API"
+      ],
+      "netlify": "https://project-todo-aj.netlify.app/",
+      "github": "https://github.com/julialindstrand/js-project-todo"
+    },
+    {
+      "name": "Happy Thoughts",
+      "image": "/images/happy.png",
+      "description": "A project where you can type in a happy thought that adds to a API. You can also like the thoughts by pressing the heart icon and see how many likes it's got.",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "API"
+      ],
+      "netlify": "https://happy-thoughts-pr.netlify.app/",
+      "github": "https://github.com/julialindstrand/js-project-happy-thoughts"
     },
     {
       "name": "Recipe Library",

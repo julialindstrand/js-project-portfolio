@@ -1,22 +1,41 @@
-import githubicon from "../../images/icons/github.png"
-import linkedinicon from "../../images/icons/linkedin.png"
-import stackoverflowicon from "../../images/icons/stackoverflow.png"
 import styled from "styled-components"
+import { theme } from "../Styling/Theme"
 
 export const Icons = () => {
   return (
     <IconRow>
-      <a href="https://github.com/julialindstrand"><Picture src={githubicon} alt="Github Logo" /></a>
-      <a href="https://www.linkedin.com/flagship-web/mynetwork/grow/"><Picture src={linkedinicon} alt="LinkedIn Logo" /></a>
-      <a href="https://stackoverflow.com/users/31290851/user31290851"><Picture src={stackoverflowicon} alt="Stackoverflow Logo" /></a>
-    </IconRow>
+      <a href="https://github.com/julialindstrand">
+        <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7.73438 18.2812C7.73438 18.1875 7.64062 18.0938 7.5 18.0938C7.35938 18.0938 7.26562 18.1875 7.26562 18.2812C7.26562 18.375 7.35938 18.4688 7.5 18.4219C7.64062 18.4219 7.73438 18.375 7.73438 18.2812ZM6.28125 18.0469C6.28125 18.1406 6.375 18.2812 6.51562 18.2812C6.60938 18.3281 6.75 18.2812 6.79688 18.1875C6.79688 18.0938 6.75 18 6.60938 17.9531C6.46875 17.9062 6.32812 17.9531 6.28125 18.0469ZM8.39062 18C8.25 18 8.15625 18.0938 8.15625 18.2344C8.15625 18.3281 8.29688 18.375 8.4375 18.3281C8.57812 18.2812 8.67188 18.2344 8.625 18.1406C8.625 18.0469 8.48438 17.9531 8.39062 18ZM11.4375 0C4.96875 0 0 4.96875 0 11.4375C0 16.6406 3.23438 21.0938 7.92188 22.6875C8.53125 22.7812 8.71875 22.4062 8.71875 22.125C8.71875 21.7969 8.71875 20.2031 8.71875 19.2188C8.71875 19.2188 5.4375 19.9219 4.73438 17.8125C4.73438 17.8125 4.21875 16.4531 3.46875 16.125C3.46875 16.125 2.39062 15.375 3.51562 15.375C3.51562 15.375 4.6875 15.4688 5.34375 16.5938C6.375 18.4219 8.0625 17.9062 8.76562 17.5781C8.85938 16.8281 9.14062 16.3125 9.51562 15.9844C6.89062 15.7031 4.21875 15.3281 4.21875 10.8281C4.21875 9.51562 4.59375 8.90625 5.34375 8.0625C5.20312 7.73438 4.82812 6.51562 5.48438 4.875C6.42188 4.59375 8.71875 6.14062 8.71875 6.14062C9.65625 5.85938 10.6406 5.76562 11.625 5.76562C12.6562 5.76562 13.6406 5.85938 14.5781 6.14062C14.5781 6.14062 16.8281 4.54688 17.8125 4.875C18.4688 6.51562 18.0469 7.73438 17.9531 8.0625C18.7031 8.90625 19.1719 9.51562 19.1719 10.8281C19.1719 15.3281 16.4062 15.7031 13.7812 15.9844C14.2031 16.3594 14.5781 17.0625 14.5781 18.1875C14.5781 19.7344 14.5312 21.7031 14.5312 22.0781C14.5312 22.4062 14.7656 22.7812 15.375 22.6406C20.0625 21.0938 23.25 16.6406 23.25 11.4375C23.25 4.96875 17.9531 0 11.4375 0ZM4.54688 16.1719C4.45312 16.2188 4.5 16.3594 4.54688 16.4531C4.64062 16.5 4.73438 16.5469 4.82812 16.5C4.875 16.4531 4.875 16.3125 4.78125 16.2188C4.6875 16.1719 4.59375 16.125 4.54688 16.1719ZM4.03125 15.7969C3.98438 15.8906 4.03125 15.9375 4.125 15.9844C4.21875 16.0312 4.3125 16.0312 4.35938 15.9375C4.35938 15.8906 4.3125 15.8438 4.21875 15.7969C4.125 15.75 4.07812 15.75 4.03125 15.7969ZM5.53125 17.4844C5.48438 17.5312 5.48438 17.6719 5.625 17.7656C5.71875 17.8594 5.85938 17.9062 5.90625 17.8125C5.95312 17.7656 5.95312 17.625 5.85938 17.5312C5.76562 17.4375 5.625 17.3906 5.53125 17.4844ZM5.01562 16.7812C4.92188 16.8281 4.92188 16.9688 5.01562 17.0625C5.10938 17.1562 5.20312 17.2031 5.29688 17.1562C5.34375 17.1094 5.34375 16.9688 5.29688 16.875C5.20312 16.7812 5.10938 16.7344 5.01562 16.7812Z" fill={theme.color} />
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/flagship-web/mynetwork/grow/">
+        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.6875 20.9531V6.9375H0.328125V20.9531H4.6875ZM2.48438 5.0625C3.89062 5.0625 5.01562 3.89062 5.01562 2.48438C5.01562 1.125 3.89062 0 2.48438 0C1.125 0 0 1.125 0 2.48438C0 3.89062 1.125 5.0625 2.48438 5.0625ZM20.9531 20.9531H21V13.2656C21 9.51562 20.1562 6.60938 15.75 6.60938C13.6406 6.60938 12.2344 7.78125 11.625 8.85938H11.5781V6.9375H7.40625V20.9531H11.7656V14.0156C11.7656 12.1875 12.0938 10.4531 14.3438 10.4531C16.5938 10.4531 16.6406 12.5156 16.6406 14.1562V20.9531H20.9531Z" fill={theme.color} />
+        </svg>
+      </a>
+      <a href="https://stackoverflow.com/users/31290851/user31290851">
+        <svg width="19" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13 21H3V19H13V21ZM19 9.335L17.379 0L15.386 0.346L17.006 9.681L19 9.335ZM13.036 16.272L3.29 15.297L3.104 17.313L12.859 18.192L13.036 16.272ZM13.574 13.685L4.298 11.077L3.772 13.031L13.078 15.531L13.574 13.685ZM14.778 11.272L6.481 6.408L5.452 8.151L13.75 13.016L14.778 11.272ZM16.644 9.805L11.305 1.976L9.633 3.116L14.972 10.945L16.644 9.805ZM14 14V22H2V14H0V24H16V14H14Z" fill={theme.color} />
+        </svg>
+      </a>
+      {/* <a href="https://stackoverflow.com/users/31290851/user31290851">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="19" height="24" viewBox="0 0 19 24" xml:space="preserve">
+          <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+            <path d="M 75.546 78.738 H 14.455 C 6.484 78.738 0 72.254 0 64.283 V 25.716 c 0 -7.97 6.485 -14.455 14.455 -14.455 h 61.091 c 7.97 0 14.454 6.485 14.454 14.455 v 38.567 C 90 72.254 83.516 78.738 75.546 78.738 z M 14.455 15.488 c -5.64 0 -10.228 4.588 -10.228 10.228 v 38.567 c 0 5.64 4.588 10.229 10.228 10.229 h 61.091 c 5.64 0 10.228 -4.589 10.228 -10.229 V 25.716 c 0 -5.64 -4.588 -10.228 -10.228 -10.228 H 14.455 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(29,29,27); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+            <path d="M 11.044 25.917 C 21.848 36.445 32.652 46.972 43.456 57.5 c 2.014 1.962 5.105 -1.122 3.088 -3.088 C 35.74 43.885 24.936 33.357 14.132 22.83 C 12.118 20.867 9.027 23.952 11.044 25.917 L 11.044 25.917 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(29,29,27); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+            <path d="M 46.544 57.5 c 10.804 -10.527 21.608 -21.055 32.412 -31.582 c 2.016 -1.965 -1.073 -5.051 -3.088 -3.088 C 65.064 33.357 54.26 43.885 43.456 54.412 C 41.44 56.377 44.529 59.463 46.544 57.5 L 46.544 57.5 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(29,29,27); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+            <path d="M 78.837 64.952 c -7.189 -6.818 -14.379 -13.635 -21.568 -20.453 c -2.039 -1.933 -5.132 1.149 -3.088 3.088 c 7.189 6.818 14.379 13.635 21.568 20.453 C 77.788 69.973 80.881 66.89 78.837 64.952 L 78.837 64.952 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(29,29,27); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+            <path d="M 14.446 68.039 c 7.189 -6.818 14.379 -13.635 21.568 -20.453 c 2.043 -1.938 -1.048 -5.022 -3.088 -3.088 c -7.189 6.818 -14.379 13.635 -21.568 20.453 C 9.315 66.889 12.406 69.974 14.446 68.039 L 14.446 68.039 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(29,29,27); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+          </g>
+        </svg>
+      </a> */}
+    </IconRow >
   )
 }
 
 const IconRow = styled.div`
   display: flex;
-  flex-direction: row;`
-
-const Picture = styled.img`
- padding-right: 15px;
-`
+  flex-direction: row;
+  gap: 10px;
+  `

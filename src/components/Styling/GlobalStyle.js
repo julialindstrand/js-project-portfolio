@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 
-export const basecolor = "#FD6F00"
+export const basecolor = "#233D00"
 export const GlobalStyle = createGlobalStyle`
   * {
   margin: 0;
